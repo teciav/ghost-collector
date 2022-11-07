@@ -28,14 +28,9 @@ const Canvas = ({width, height}) => {
             width={width}
             height={height}
             onMouseDown={onMouseDown}
-            style={canvasStyle}
             ref={setCanvasRef}
         />
     );
 }
 
 export default Canvas;
-
-const canvasStyle = {
-    border: '1px solid black',
-}
